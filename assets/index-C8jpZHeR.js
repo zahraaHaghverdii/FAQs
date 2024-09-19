@@ -237,7 +237,7 @@ img {
 `,vg=Pe.img`
   width: 7%;
   height: 100%;
-`;function gg(){return z.jsxs(yg,{children:[z.jsx(vg,{src:"/image/icon-star.svg"}),z.jsx(mg,{as:"h1",children:"FAQS"})]})}const wg={mobile:"500px",tablet:"795px",desktop:"1440px"},Sg=Pe.div`
+`;function gg(){return z.jsxs(yg,{children:[z.jsx(vg,{src:"/dist/image/icon-star.svg"}),z.jsx(mg,{as:"h1",children:"FAQS"})]})}const wg={mobile:"500px",tablet:"795px",desktop:"1440px"},Sg=Pe.div`
   margin: 0;
   width: 100%;
   background: var(--color-pink-30);
@@ -498,7 +498,7 @@ to {
   white-space: nowrap; /* جلوگیری از شکستن خط */
   overflow: hidden; /* پنهان کردن محتواهای خارج از باکس */
   text-overflow: ellipsis; /* نمایش سه نقطه در انتها */
-`;function j1({faq:e}){return z.jsx(z1,{children:z.jsxs(ln,{children:[z.jsxs(ln.Title,{id:e.id,children:[z.jsx(L1,{children:e.title}),z.jsx(ln.Icon,{id:e.id,openIcon:"/image/icon-plus.svg",closeIcon:"/image/icon-minus.svg"})]}),z.jsx(ln.Information,{id:e.id,children:e.description})]})})}const D1=Pe.ul`
+`;function j1({faq:e}){return z.jsx(z1,{children:z.jsxs(ln,{children:[z.jsxs(ln.Title,{id:e.id,children:[z.jsx(L1,{children:e.title}),z.jsx(ln.Icon,{id:e.id,openIcon:"/dist/image/icon-plus.svg",closeIcon:"/dist/image/icon-minus.svg"})]}),z.jsx(ln.Information,{id:e.id,children:e.description})]})})}const D1=Pe.ul`
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
