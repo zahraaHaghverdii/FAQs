@@ -37,8 +37,8 @@ function FaqItem({ faq }) {
           <H3>{faq.title}</H3>
           <Faqs.Icon
             id={faq.id}
-            openIcon={"/image/icon-plus.svg"}
-            closeIcon={"/image/icon-minus.svg"}
+            openIcon={"/dist/image/icon-plus.svg"}
+            closeIcon={"/dist/image/icon-minus.svg"}
           />
         </Faqs.Title>
 
