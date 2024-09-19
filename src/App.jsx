@@ -23,8 +23,8 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<AppLayout />}>
-            <Route path="/" element={<FaqPage />} />
+          <Route path="/FAQs" element={<AppLayout />}>
+            <Route path="/FAQs" element={<FaqPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

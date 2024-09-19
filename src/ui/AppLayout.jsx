@@ -69,8 +69,8 @@ function AppLayout() {
 
   const src =
     width >= parseInt(theme.breakpoints.mobile)
-      ? "/image/background-pattern-desktop.svg"
-      : "/image/background-pattern-mobile.svg";
+      ? "image/background-pattern-desktop.svg"
+      : "image/background-pattern-mobile.svg";
 
   return (
     <ThemeProvider theme={createTheme}>

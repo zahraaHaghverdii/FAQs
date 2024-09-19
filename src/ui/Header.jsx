@@ -17,7 +17,7 @@ const Image = styled.img`
 function Header() {
   return (
     <StyledHeader>
-      <Image src="/dist/image/icon-star.svg" />
+      <Image src="image/icon-star.svg" />
       <Heading as="h1">FAQS</Heading>
     </StyledHeader>
   );
